@@ -27,3 +27,24 @@ int carp(int a,int b){
   }
    return result;
 }
+
+
+// 3
+void main() {
+  
+  List<String> meyveler = ["muz","çilek", "elma"];
+ 
+
+  String fruitToRemove = 'muz';
+
+  print(meyveler);
+  removeItemFromList(meyveler, fruitToRemove);
+
+ 
+}
+ void removeItemFromList(List<String> arr,String fruitToRemove){
+  
+        arr.remove(fruitToRemove);
+        print(arr);
+      
+  }
